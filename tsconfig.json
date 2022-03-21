@@ -22,8 +22,5 @@
     }
   },
   "include": ["src", "windi.config.ts"],
-  "types": [
-    "vite/client" // if using vite
-  ],
   "references": [{ "path": "./tsconfig.node.json" }]
 }

@@ -21,7 +21,7 @@ const RGB: React.FC<RGBProps> = ({ hex }) => {
     }
   ]
   const listItems = items.map(({ type, value }, index) => (
-    <span className="mr-6" key={index}>
+    <span className={index !== 2 ? 'mr-6' : ''} key={index}>
       <span className="">{type}</span>
       <span className="mx-2 inline-block h-12px w-1px bg-instant-noodles-gold"></span>
       <span>{value}</span>

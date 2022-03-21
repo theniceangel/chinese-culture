@@ -9,3 +9,7 @@ html {
 #root {
   height: 100%;
 }
+
+:root {
+  --instant-noodles-text-color: #f8d69a;
+}

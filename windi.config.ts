@@ -4,7 +4,7 @@ export default defineConfig({
   theme: {
     extend: {
       colors: {
-        'instant-noodles-gold': '#f8d69a'
+        'instant-noodles-gold': 'var(--instant-noodles-text-color)'
       }
     }
   }
